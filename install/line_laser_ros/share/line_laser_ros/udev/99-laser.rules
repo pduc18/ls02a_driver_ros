@@ -1,0 +1,2 @@
+# Set the udev rule to make the LiDAR device port fixed
+KERNEL=="ttyUSB*", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", MODE:="0660", GROUP:="dialout", SYMLINK+="laser"

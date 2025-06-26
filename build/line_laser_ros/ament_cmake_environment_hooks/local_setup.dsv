@@ -1,0 +1,2 @@
+source;share/line_laser_ros/environment/ament_prefix_path.sh
+source;share/line_laser_ros/environment/path.sh
